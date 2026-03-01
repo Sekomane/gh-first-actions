@@ -2,7 +2,7 @@ name: First Workflow #worflow name
 on: workflow_dispatch  #when will this workflow be executed....workflow dispatch makes sure that we can manually trigger this workflo
 jobs:    #the work that should be done and it does not take name immediatley
   first-job:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Print greeting
         run: echo "Hello World!"
